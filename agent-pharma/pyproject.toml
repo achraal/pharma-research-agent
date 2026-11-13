@@ -1,7 +1,7 @@
 [project]
 name = "agent-pharma"
 version = "0.1.0"
-description = "Add your description here"
+description = "Autonomous Agentic Research Assistant for pharmacology corpus exploration with LangGraph and ChromaDB"
 readme = "README.md"
 authors = [
     { name = "achraal", email = "achrafbenagri28@gmail.com" }
@@ -27,3 +27,8 @@ build-backend = "uv_build"
 
 [tool.uv]
 package = false
+
+[dependency-groups]
+dev = [
+    "requests>=2.34.2",
+]

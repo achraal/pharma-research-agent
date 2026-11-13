@@ -21,6 +21,11 @@ dependencies = [
     { name = "uvicorn" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "requests" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "chromadb", specifier = ">=1.5.9" },
@@ -32,6 +37,9 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "uvicorn", specifier = ">=0.54.0" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "requests", specifier = ">=2.34.2" }]
 
 [[package]]
 name = "aiohappyeyeballs"
