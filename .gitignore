@@ -1,0 +1,31 @@
+# Secrets (NEVER commit)
+.env
+.env.*
+!.env.example
+
+# Confidential assignment material
+assignment-pharma.pdf
+assignment-pharma.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local artifacts
+*.log
+eval_results.json
